@@ -28,7 +28,7 @@ Logistic Regression is used as the baseline. Random Forest provides a nonlinear 
 
 ## Results
 
-Logistic Regression achieved approximately 98% test accuracy. Random Forest results are reported directly in the notebook. The MLP threshold is adjustable to balance malignant recall against false-positive benign classifications.
+Logistic Regression achieved approximately 98% test accuracy. Random Forest recorded 97%. The MLP threshold is adjustable to balance malignant recall against false-positive benign classifications.
 
 ## Setup
 
