@@ -1,13 +1,10 @@
 # Breast Cancer AI
 
-A supervised and unsupervised machine learning project for predicting breast cancer diagnosis from the Breast Cancer Wisconsin dataset.
+A supervised/ unsupervised machine learning project that predicts breast cancer diagnosis from the Breast Cancer Wisconsin dataset.
 
 ## Project Overview
 
 The project explores:
-
-- Exploratory data analysis and feature cleaning
-- Multicollinearity analysis
 - Logistic Regression
 - Random Forest
 - Neural Network (MLP)
@@ -17,16 +14,17 @@ The project explores:
 
 ## Dataset
 
-The data is stored in `data/data.csv`. The target variable is `diagnosis`:
+The data is stored in `data/data.csv`. 
+The target variable is `diagnosis`:
 
-- `M` = Malignant
-- `B` = Benign
+`M` = Malignant
+`B` = Benign
 
 The dataset is split into 80% training and 20% testing data using a stratified split.
 
 ## Models
 
-Logistic Regression is used as the interpretable baseline. Random Forest provides a nonlinear ensemble comparison, while MLP is used as a neural-network model. Classification thresholds are tuned to prioritize malignant-case recall.
+Logistic Regression is used as the baseline. Random Forest provides a nonlinear ensemble comparison, while MLP is used as a neural network model. Classification thresholds are tuned to prioritize malignant case recall.
 
 ## Results
 
@@ -39,7 +37,7 @@ python -m pip install -r requirements
 jupyter lab
 ```
 
-Open `notebooks/BreastCancer.ipynb` and run all cells from top to bottom.
+Choose `notebooks/BreastCancer.ipynb` and run all cells from top to bottom.
 
 ## Repository Structure
 
@@ -58,4 +56,4 @@ Breast-Cancer-AI/
 
 ## Note
 
-This project is for educational research only and is not a substitute for professional medical diagnosis.
+This project is for educational research for machine and deep learning only and is not a substitute for professional medical diagnosis.
